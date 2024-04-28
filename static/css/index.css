@@ -338,3 +338,18 @@ aside_content .card-info .author-info__description {
 ::-webkit-scrollbar-track {
     background-color: transparent
 }
+
+.image-container {
+    width: 200px; /* Desired width of the cropped image */
+    height: 150px; /* Desired height of the cropped image */
+    overflow: hidden; /* Hide any overflow */
+    position: relative; /* Position container */
+}
+.center-cropped {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: none; /* Prevent the image from being constrained by its container */
+    max-height: none; /* Prevent the image from being constrained by its container */
+}
