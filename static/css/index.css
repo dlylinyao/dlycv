@@ -354,8 +354,8 @@ aside_content .card-info .author-info__description {
     max-height: none; /* Prevent the image from being constrained by its container */
 }
 .image-container-12 {
-    width: 200px; /* Desired width of the cropped image */
-    height: 100px; /* Desired height of the cropped image */
+    width: 400px; /* Desired width of the cropped image */
+    height: 200px; /* Desired height of the cropped image */
     overflow: hidden; /* Hide any overflow */
     position: relative; /* Position container */
 }
